@@ -11,6 +11,7 @@ files = glob("valid_proof/*.json")
 if not len(files):
     sys.exit(1)
 
+print(files)
 for file in files:
 
     process = subprocess.Popen(
@@ -20,6 +21,7 @@ for file in files:
     out = ""
     for line in process.stdout.readlines():
         line_str = line.decode("utf-8")
+        print(line_str)
         out += line_str
 
     if "OK!" not in out:
