@@ -8,7 +8,7 @@ To complete this assignment, you need to verify which proof from the proofs [dir
 
 ## Evaluation
 
-- Clone this repo.
+- Clone this repo
 
     ```
     git clone CLONE_URL

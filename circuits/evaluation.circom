@@ -1,4 +1,4 @@
-pragma circom 2.1.4;
+pragma circom 2.1.2;
 
 template Evaluation () {
     signal input x;
