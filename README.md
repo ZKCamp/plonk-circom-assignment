@@ -22,6 +22,8 @@ To complete this assignment, you need to verify which proof from the proofs [dir
 
 - Once you determine the valid proof from the `proofs/` directory, move it to `valid_proofs/` directory
 
+- Place your verification key file - `verification_key.json` (it should be named the same) you have used in the base directory
+
 - Create a pull request from your branch to the main branch of the repo
 
 - This assignment's evaluation is automated. Successful completion of the github action means your solution is correct. You can also check the status of the assignment's completion on the portal
