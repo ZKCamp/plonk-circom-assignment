@@ -3,6 +3,5 @@ evaluation.r1cs
 evaluation.sym
 evaluation.zkey
 verification_key.json
-public.json
 proof.json
 witness.wtns
