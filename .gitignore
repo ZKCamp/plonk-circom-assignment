@@ -2,6 +2,5 @@ evaluation_js/
 evaluation.r1cs
 evaluation.sym
 evaluation.zkey
-verification_key.json
 proof.json
 witness.wtns

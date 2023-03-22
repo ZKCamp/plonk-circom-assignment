@@ -1,3 +1,5 @@
+import os
+
 import sys
 import subprocess
 
@@ -21,3 +23,4 @@ for file in files:
 
     if "OK!" not in out:
         sys.exit(1)
+

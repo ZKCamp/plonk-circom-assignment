@@ -23,7 +23,11 @@ jobs:
           rust-version: stable
 
       - name: Install circom
-        run: cargo install --path circom
+        run: |
+          git clone https://github.com/iden3/circom.git
+          cd circom/
+          cargo build --release
+          cargo install --path circom
 
       - name: Install SnarkJS
         run: npm install -g snarkjs
