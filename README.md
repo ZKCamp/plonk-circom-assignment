@@ -2,7 +2,7 @@
 
 The goal of this assignment is to make you familiar with the tooling that snarkjs and circom provide for verification of proof.
 
-In this assignment, we have provided a simple [circuit](circuits/evaluation.circom) and a [trusted setup](ptau/pot12_final.ptau).
+In this assignment, we have provided a simple [circuit](circuits/evaluation.circom), [input](input.json) and a [trusted setup](ptau/pot12_final.ptau).
 
 To complete this assignment, you need to verify which proof from the proofs [directory](proofs/) is valid for the given circuit and expected output (input signal `expected_op` in the circuit) - `2649978643504`.
 
@@ -25,3 +25,7 @@ To complete this assignment, you need to verify which proof from the proofs [dir
 - Create a pull request from your branch to the main branch of the repo
 
 - This assignment's evaluation is automated. Successful completion of the github action means your solution is correct. You can also check the status of the assignment's completion on the portal
+
+## Resources
+
+1. [PLONK Circom Walkthrough](https://github.com/ZKCamp/plonk-circom-walkthrough)
