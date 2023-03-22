@@ -1,8 +1,11 @@
+import os
+
 import sys
 import subprocess
 
 from glob import glob
 
+print(os.getcwd())
 files = glob("valid_proof/*.json")
 
 if not len(files):
@@ -21,3 +24,4 @@ for file in files:
 
     if "OK!" not in out:
         sys.exit(1)
+
