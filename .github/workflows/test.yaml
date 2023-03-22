@@ -29,9 +29,6 @@ jobs:
           cargo build --release
           cargo install --path circom
 
-      - name: CD Back
-        run: cd ..
-
       - name: Install SnarkJS
         run: npm install -g snarkjs
 
